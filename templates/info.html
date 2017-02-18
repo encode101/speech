@@ -1,0 +1,10 @@
+<div ui-view>
+	<div style="height:100px;"></div>
+  <h1 id="intro" class="textAlignCenter">Hi There :)</h1> 
+  {{message}} <br/>
+  <div id="mic" ng-sref="notes">
+    <img src="images/microphone-on.png" id="switchMic" ng-mouseenter="switchMicOn()" ng-mouseleave="switchMicOff()" ng-click="startButton()">
+  </div>
+  <div class="labs">In labs of <a href="http://www.rahulmishra.com/speech" target="_new">Rahul Mishra</a></div>
+  <!-- Final : <span id="final_span"></span> <br/>
+  Interim : <span id="interim_span"></span> -->
